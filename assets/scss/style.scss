@@ -1,0 +1,48 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+body{
+	background-color: #E0E1E8;
+}
+
+h2{
+	font-size: 1.5rem;
+}
+
+h3{
+	font-size: 1.125rem;
+	font-weight: 300;
+}
+
+.content{
+	max-width: 800px;
+	margin: 50px auto;
+}
+
+.single-testimonial {
+	margin: 20px 0;
+	padding: 10px;
+	background-color: #FBFBFB;
+	border: 1px solid #636B94;
+	border-radius: 10px;
+	color: #636B94;
+}
+
+.testimonial{
+	input,
+	textarea{
+		width: 100%;
+		margin: 10px 0;
+		padding: 10px;
+		border: 1px solid #636B94;
+		border-radius: 10px;
+	}
+	textarea{
+		min-height: 100px;
+	}
+	input[type=submit]{
+		width: auto;
+	}
+}
